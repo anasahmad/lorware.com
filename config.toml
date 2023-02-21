@@ -1,11 +1,11 @@
-baseURL = 'https://lorware.com'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Lorware'
 theme = 'paper'
 
-#[menu]
-#    [[menu.main]]
-#        identifier = "contact"
-#        name = "Contact"
-#        url = "/contact/"
-#        weight = 10
+[menu]
+    [[menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact/"
+        weight = 10

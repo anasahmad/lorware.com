@@ -1,7 +1,6 @@
 ---
 title: "Interface in Go"
 date: 2023-02-20T14:07:33-06:00
-draft: true
 tags: ['Go']
 ---
 
@@ -62,7 +61,7 @@ func (b *Corolla1998) stop(){
     //push break and rotate key anti-clockwise
 }
 ```
-
+### Usage
 ```
 type human struct{
     name string,
