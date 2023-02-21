@@ -2,14 +2,13 @@
 title: "Hash Set Implementation in Go"
 date: 2023-02-19T23:13:16-06:00
 draft: true
-tags: ['go']
+tags: ['Go']
 ---
 
-### Problem
-##### Go doesn't have a hashset data type
+### In logic building, hashsets are an important data structure used for many applications. Go, currently, doesn't have a hashset data type implementation
 
-### Solution
-##### Set can easily be implemented using map by defining the value field as a boolean
+
+#### A HashSet can easily be implemented using map by defining the value field as a boolean
 
 ```
 myset := map[T]bool{} 
