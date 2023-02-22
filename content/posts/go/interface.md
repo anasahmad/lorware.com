@@ -91,4 +91,4 @@ jattni.car.start()
 jattni.car.driveForward()
 ```
 
-### As defined above the human has a car. Cars change, so we have the interface in the human struct but the actual definition specifies which car.
+### As defined above the human has a car. Cars change, so we have the interface in the human struct but the human instantiation specifies which car.
