@@ -12,11 +12,11 @@ tags: ['Go']
 ```
 myset := map[T]bool{} 
 
-//add
+//add - value is type T
 myset[value] = true
 
-//contains/exists
-valueFromSet, contains := myset[value]
+// contains
+_, contains := myset[value]
 if contains {
 
 }
@@ -37,7 +37,7 @@ len(myset)
 fruitsInHouse := []string{"apple", "banana", "orange", "peach"}
 // common solution - hint, it's inefficient! - O(n)
 for _, fruit := range fruitsInHouse {
-    if "apple" == fruit{
+    if "peach" == fruit{
         //contains
     }
 }
@@ -49,5 +49,5 @@ for _, fruit := range fruitsInHouse {
 ```
 fruitsInHouse := map[string]bool{"apple": true, "banana": true, "orange": true, "peach": true}
 // this solution is O(1)
-fruit, contains := fruitsInHouse["apple"]
+_, contains := fruitsInHouse["apple"]
 ```
